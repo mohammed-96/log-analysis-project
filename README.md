@@ -27,6 +27,10 @@ Once you get the above software installed, follow the insturctions detailed belo
 1. run  ``` mkdir log-analysis-project ```  to create the dirictory.
 1. run  ``` cd log-analysis-project ```
 1. Load the data using the following command: ``` psql -d news -f newsdata.sql ```
+1. run ```pip install flask ```
+1. run ``` pip install psycopg2 ```
+1. ``` python3 newsdata.py```  to run the reporting tool.
+
 
 ## Helpful Resources:
 1. Install [Vagrant](https://www.vagrantup.com/)
